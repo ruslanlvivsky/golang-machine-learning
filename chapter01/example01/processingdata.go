@@ -9,7 +9,7 @@ import (
 )
 
 func main() {
-	f, err := os.Open("../data/Iris.csv")
+	f, err := os.Open("../../data/Iris.csv")
 	if err != nil {
 		log.Fatal(err)
 	}

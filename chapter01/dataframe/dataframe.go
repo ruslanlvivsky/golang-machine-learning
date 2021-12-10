@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	irisFile, err := os.Open("../data/Iris.csv")
+	irisFile, err := os.Open("../../data/Iris.csv")
 	if err != nil {
 		log.Fatal(err)
 	}
